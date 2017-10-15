@@ -1,0 +1,184 @@
+/* 
+---------------------------
+GENERAL 
+--------------------------- 
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ 
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+ 
+p {
+	margin: 0 0 1.5em 0;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* 
+---------------------------
+HEADER 
+--------------------------- 
+ */
+#main-header {
+	background: #2A5B83;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+ 
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+ /* 
+---------------------------
+INDICE
+--------------------------- 
+ */
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 35;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			vertical-align: top;
+			width:120px;
+		}
+		nav ul li:first-child{
+			width: 80px;
+		}
+		nav ul li ul li {
+			display:block;
+			
+		}
+		nav ul li ul{
+			display:none;
+
+
+		}
+		nav ul li:hover ul {
+
+			background: red;
+			display: block; 
+		}
+
+		
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	list-style: none;
+}
+#main-content div.content{padding: 20px;
+						  list-style: none;
+
+
+}
+.col50 {
+    width: 50%;
+    float: left;
+}
+
+#main-content:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    content: ".";
+    list-style: none;
+}
+ 
+	#main-content header,
+	#main-content .content {
+		list-style: none;
+		padding: 40px;
+	}
+#main-footer {
+	background:#2A5B83;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	height: 100%;
+	width: 100%; 
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+.foto {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px 5px 0px 5px;
+}
+.coorporaciones{
+	width: 70px;
+    
+    float: left;
+    margin: 5px 5px 0px 5px;
+
+}
+a.twitter{color:#0cf;}
+
